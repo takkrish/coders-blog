@@ -63,4 +63,12 @@ export interface ArticleAttributes {
 			};
 		};
 	};
+	category: {
+		data: {
+			attributes: {
+				slug: string;
+				title: string;
+			};
+		};
+	};
 }
