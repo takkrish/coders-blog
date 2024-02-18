@@ -8,7 +8,7 @@ type Props = {
 
 const Articles = ({ articles }: Props) => {
 	return (
-		<div className='w-full mt-16 grid grid-cols-2 gap-16'>
+		<div className='w-full mt-8 grid grid-cols-1 md:grid-cols-2 gap-16'>
 			{articles.map((item, idx) => {
 				return <ArticleCard key={idx} article={item} />;
 			})}
