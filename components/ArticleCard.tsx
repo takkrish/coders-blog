@@ -31,7 +31,7 @@ const ArticleCard = ({ article }: Props) => {
 	return (
 		<Link href={`/article/${slug}`}>
 			<article className='relative col-span-1 group'>
-				<span className='absolute bg-zinc-100 rounded-xl z-0 -inset-6 scale-95 group-hover:scale-100 transition-all opacity-0 group-hover:opacity-100'></span>
+				<span className='absolute bg-zinc-100 ring-1 ring-zinc-200 rounded-xl z-0 -inset-6 scale-95 group-hover:scale-100 transition-all opacity-0 group-hover:opacity-100'></span>
 				<div className='flex flex-col gap-4 z-10 relative'>
 					<h3 className='font-bold text-lg'>{title}</h3>
 					<div className='flex gap-2 items-center text-sm font-medium'>
