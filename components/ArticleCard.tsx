@@ -37,7 +37,7 @@ const ArticleCard = ({ article }: Props) => {
 					<div className='flex gap-2 items-center text-sm font-medium'>
 						<div className='relative w-8 h-8 ring-zinc-100'>
 							<Image
-								src={`http://localhost:1337${url}`}
+								src={url}
 								alt='profile img'
 								fill
 								sizes='32px'

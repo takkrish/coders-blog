@@ -6,16 +6,16 @@ export interface CategoriesResponse {
 }
 
 export interface Category {
-	id: Number;
+	id: number;
 	attributes: CategoryAttributes;
 }
 
 export interface CategoryAttributes {
-	title: String;
+	title: string;
 	createdAt: Date;
 	updatedAt: Date;
 	publishedAt: Date;
-	slug: String;
+	slug: string;
 }
 
 export interface PaginationResourse {
@@ -23,10 +23,10 @@ export interface PaginationResourse {
 }
 
 export interface Pagination {
-	page: Number;
-	pageSize: Number;
-	pageCount: Number;
-	total: Number;
+	page: number;
+	pageSize: number;
+	pageCount: number;
+	total: number;
 }
 
 // ARTICLES DATA
@@ -37,26 +37,26 @@ export interface ArticlesResponse {
 }
 
 export interface Article {
-	id: Number;
+	id: number;
 	attributes: ArticleAttributes;
 }
 
 export interface ArticleAttributes {
-	title: String;
+	title: string;
 	createdAt: Date;
 	updatedAt: Date;
 	publishedAt: Date;
-	description: String;
-	slug: String;
+	description: string;
+	slug: string;
 	author: {
 		data: {
 			attributes: {
-				username: String;
-				email: String;
+				username: string;
+				email: string;
 				profileImg: {
 					data: {
 						attributes: {
-							url: String;
+							url: string;
 						};
 					};
 				};
