@@ -4,7 +4,7 @@ import Logo from '@/public/icons/Logo.svg';
 
 const Navbar = () => {
 	return (
-		<nav className='w-full py-4 border-b shadow-sm border-zinc-100 sticky top-0 bg-white z-50'>
+		<nav className='w-full px-4 sm:px-0  py-4 border-b shadow-sm border-zinc-100 sticky top-0 bg-white z-50'>
 			<div className='container mx-auto flex items-center justify-between'>
 				<Link href={'/'} className='flex gap-x-8 items-center'>
 					<div className='w-10 h-10 relative'>
@@ -12,7 +12,7 @@ const Navbar = () => {
 					</div>
 					<p className='font-semibold'>Coder&apos;s Blog</p>
 				</Link>
-				<ul className='flex gap-x-8 font-medium'>
+				<ul className='gap-x-8 font-medium hidden md:flex'>
 					<li>
 						<Link href={'/'}>Products</Link>
 					</li>
@@ -26,7 +26,7 @@ const Navbar = () => {
 						<Link href={'/'}>Company</Link>
 					</li>
 				</ul>
-				<div className='flex gap-x-8 items-center font-medium'>
+				<div className='md:flex hidden gap-x-8 items-center font-medium'>
 					<Link href={'/'}>Log in</Link>
 					<button className='bg-zinc-800 hover:bg-zinc-700 px-4 py-2 rounded-md text-white'>
 						Sign in

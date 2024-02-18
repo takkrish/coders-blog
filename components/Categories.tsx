@@ -15,8 +15,8 @@ const CategoriesComponent = ({
 	const activeClass = 'border-zinc-800';
 
 	return (
-		<div className='w-full mt-8 font-medium text-sm'>
-			<div className='container mx-auto flex gap-x-8 border-b border-b-zinc-100'>
+		<div className='w-full px-4 sm:px-0 mt-8 font-medium text-sm'>
+			<div className='container mx-auto overflow-scroll flex gap-x-8 border-b border-b-zinc-100'>
 				<button
 					type='button'
 					onClick={() => setCategoryTitle('Recents')}

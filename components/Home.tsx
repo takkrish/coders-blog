@@ -39,7 +39,7 @@ const Home = ({ categories, articles }: PropType) => {
 				categoryTitle={categoryTitle}
 				setCategoryTitle={setCategoryTitle}
 			/>
-			<div className='container mx-auto mt-8 flex flex-col'>
+			<div className='container mx-auto sm:px-0 px-4 mt-8 flex flex-col'>
 				<p className='font-extrabold text-xl pl-4 border-l-4 border-zinc-800 rounded-sm'>
 					{categoryTitle}
 				</p>
